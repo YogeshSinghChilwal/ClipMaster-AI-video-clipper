@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+*.venv
+
+# Modal / AWS cache or temp files
+.modal_cache/
+.aws/
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Media files (avoid committing large videos)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Requirements lock files (optional, keep if needed)
+Pipfile.lock
+poetry.lock
